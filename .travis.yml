@@ -12,16 +12,11 @@ matrix:
   - php: 7.0
   - php: 7.1
     env: REPORT_TESTS_COVERAGE=1
-  - php:
-    - hhvm-3.18
-    - hhvm-nightly
 cache:
   directories:
   - "$HOME/.composer/cache"
-before_install:
-  - travis_retry composer global require $DEFAULT_COMPOSER_FLAGS hirak/prestissimo
 install:
-  - travis_retry composer update $DEFAULT_COMPOSER_FLAGS
+  - travis_retry composer install
   - composer info -D | sort
 script:
   - vendor/bin/phpunit
