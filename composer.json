@@ -1,0 +1,39 @@
+{
+    "name": "jvleeuwen/broadsoft",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jelle van Leeuwen",
+            "email": "info@jellevl.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "require": {
+        "pusher/pusher-php-server": "^2.6",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "laravel/laravel": "dev-develop",
+        "phpunit/phpunit": "~5.0",
+        "orchestra/testbench": "^3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "jvleeuwen\\broadsoft\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "jvleeuwen\\broadsoft\\Test\\" : "TestCase.php"
+        }
+    },
+    "extra": {
+        "laravel" : {
+            "providers" : [
+                "jvleeuwen\\broadsoft\\BroadsoftServiceProvider::class",
+                "App\\Providers\\BroadcastServiceProvider::class"
+            ]
+        }
+    }
+}
