@@ -24,4 +24,10 @@ class xmlTest extends TestCase
     {
         $this->markTestSkipped('Not implemented');
     }
+
+    /** @test */
+    public function fourthTest()
+    {
+        $this->markTestSkipped('Not implemented');
+    }
 }
