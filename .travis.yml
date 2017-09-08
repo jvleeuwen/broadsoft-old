@@ -1,25 +1,11 @@
 language: php
-sudo: false
-git:
-  depth: 1
-env:
-  global:
-  - DEFAULT_COMPOSER_FLAGS="--no-interaction --no-progress --optimize-autoloader"
-  - REPORT_TESTS_COVERAGE=0
-matrix:
-  fast_finish: true
-  include:
-  - php: 7.0
-  - php: 7.1
-    env: REPORT_TESTS_COVERAGE=1
-cache:
-  directories:
-  - "$HOME/.composer/cache"
-before_install:
-  - travis_retry composer update
-install:
-  - travis_retry composer install
-  - composer info -D | sort
+ 
+- php: 7.1
+  env: REPORT_TESTS_COVERAGE=1
+
+before_script:
+  - composer self-update
+  - composer install --no-interaction
 script:
   - vendor/bin/phpunit
 after_success:
