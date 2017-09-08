@@ -2,12 +2,15 @@
 [![StyleCI](https://styleci.io/repos/43971660/shield?branch=master)](https://styleci.io/repos/43971660)
 [![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](LICENSE.md)
 
+[![Latest Stable Version](https://poser.pugx.org/jvleeuwen/broadsoft/v/stable)](https://packagist.org/packages/jvleeuwen/broadsoft)
+[![Latest Unstable Version](https://poser.pugx.org/jvleeuwen/broadsoft/v/unstable)](https://packagist.org/packages/jvleeuwen/broadsoft)
+[![License](https://poser.pugx.org/jvleeuwen/broadsoft/license)](https://packagist.org/packages/jvleeuwen/broadsoft)
 
 [![Build Status](https://travis-ci.org/jvleeuwen/broadsoft.svg)](https://travis-ci.org/jvleeuwen/broadsoft)
 [![Coverage Status](https://coveralls.io/repos/github/jvleeuwen/broadsoft/badge.svg?branch=master)](https://coveralls.io/github/jvleeuwen/broadsoft?branch=master)
 [![Code Climate](https://codeclimate.com/repos/56a70d5ba9ee680070010a05/badges/40dbc66effc417734313/gpa.svg)](https://codeclimate.com/repos/56a70d5ba9ee680070010a05/feed)
 [![StyleCI](https://styleci.io/repos/50113229/shield)](https://styleci.io/repos/50113229)
-[![Total Downloads](https://poser.pugx.org/DarkaOnLine/swagger-lume/downloads.svg)](https://packagist.org/packages/DarkaOnLine/swagger-lume)
+[![Total Downloads](https://poser.pugx.org/jvleeuwen/broadsoft/downloads)](https://packagist.org/packages/jvleeuwen/broadsoft)
 
 # Broadsoft package
 Broadsoft package for laravel  5.4
