@@ -15,7 +15,7 @@
     },
     "require-dev": {
         "laravel/laravel": "dev-develop",
-        // "phpunit/phpunit": "~5.0",
+        "phpunit/phpunit": "~5.0",
         "orchestra/testbench": "^3.5"
     },
     "autoload": {
