@@ -16,7 +16,8 @@
     "require-dev": {
         "laravel/laravel": "dev-develop",
         "phpunit/phpunit": "~5.0",
-        "orchestra/testbench": "^3.5"
+        "orchestra/testbench": "^3.5",
+        "satooshi/php-coveralls": "^1.0"
     },
     "autoload": {
         "psr-4": {
