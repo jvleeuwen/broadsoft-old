@@ -10,5 +10,8 @@ before_script:
 script:
   - vendor/bin/phpunit
 
+after_success:
+  - if [ $REPORT_TESTS_COVERAGE == 1 ]; then php vendor/bin/coveralls -v; fi
+  
 notifications:
   email: true
